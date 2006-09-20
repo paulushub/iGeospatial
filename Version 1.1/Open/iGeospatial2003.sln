@@ -1,0 +1,87 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Coordinates", "Coordinates\Coordinates.csproj", "{2197BAE8-1649-4ED9-843A-87F1DDDF8712}"
+	ProjectSection(ProjectDependencies) = postProject
+		{FC75B7CE-4EF4-4BE3-9097-BD2E026CCE33} = {FC75B7CE-4EF4-4BE3-9097-BD2E026CCE33}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Geometries", "Geometries\Geometries.csproj", "{5C66097B-74C1-47C1-81D6-4AC91699AD94}"
+	ProjectSection(ProjectDependencies) = postProject
+		{FC75B7CE-4EF4-4BE3-9097-BD2E026CCE33} = {FC75B7CE-4EF4-4BE3-9097-BD2E026CCE33}
+		{2197BAE8-1649-4ED9-843A-87F1DDDF8712} = {2197BAE8-1649-4ED9-843A-87F1DDDF8712}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Resources", "Resources\Resources.csproj", "{504C7F9A-9005-4F57-ACDC-2118D6F9D7D6}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core", "Core\Core.csproj", "{FC75B7CE-4EF4-4BE3-9097-BD2E026CCE33}"
+	ProjectSection(ProjectDependencies) = postProject
+		{504C7F9A-9005-4F57-ACDC-2118D6F9D7D6} = {504C7F9A-9005-4F57-ACDC-2118D6F9D7D6}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 5
+		SccProjectName0 = $/iGeospatial/Version\u00201.1/Open
+		SccLocalPath0 = .
+		SccProvider0 = MSSCCI:Team\u0020Foundation\u0020Server\u0020MSSCCI\u0020Provider
+		CanCheckoutShared = true
+		SolutionUniqueID = {E9FA0311-7425-43F5-A9C9-5E71EC9EFE18}
+		SccProjectUniqueName1 = Coordinates\\Coordinates.csproj
+		SccLocalPath1 = .
+		CanCheckoutShared = true
+		SccProjectFilePathRelativizedFromConnection1 = Coordinates\\
+		SccProjectUniqueName2 = Core\\Core.csproj
+		SccLocalPath2 = .
+		CanCheckoutShared = true
+		SccProjectFilePathRelativizedFromConnection2 = Core\\
+		SccProjectUniqueName3 = Geometries\\Geometries.csproj
+		SccLocalPath3 = .
+		CanCheckoutShared = true
+		SccProjectFilePathRelativizedFromConnection3 = Geometries\\
+		SccProjectUniqueName4 = Resources\\Resources.csproj
+		SccLocalPath4 = .
+		CanCheckoutShared = true
+		SccProjectFilePathRelativizedFromConnection4 = Resources\\
+	EndGlobalSection
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Documentations = Documentations
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{2197BAE8-1649-4ED9-843A-87F1DDDF8712}.Debug.ActiveCfg = Debug|.NET
+		{2197BAE8-1649-4ED9-843A-87F1DDDF8712}.Debug.Build.0 = Debug|.NET
+		{2197BAE8-1649-4ED9-843A-87F1DDDF8712}.Documentations.ActiveCfg = Documentations|.NET
+		{2197BAE8-1649-4ED9-843A-87F1DDDF8712}.Documentations.Build.0 = Documentations|.NET
+		{2197BAE8-1649-4ED9-843A-87F1DDDF8712}.Release.ActiveCfg = Release|.NET
+		{2197BAE8-1649-4ED9-843A-87F1DDDF8712}.Release.Build.0 = Release|.NET
+		{5C66097B-74C1-47C1-81D6-4AC91699AD94}.Debug.ActiveCfg = Debug|.NET
+		{5C66097B-74C1-47C1-81D6-4AC91699AD94}.Debug.Build.0 = Debug|.NET
+		{5C66097B-74C1-47C1-81D6-4AC91699AD94}.Documentations.ActiveCfg = Documentations|.NET
+		{5C66097B-74C1-47C1-81D6-4AC91699AD94}.Documentations.Build.0 = Documentations|.NET
+		{5C66097B-74C1-47C1-81D6-4AC91699AD94}.Release.ActiveCfg = Release|.NET
+		{5C66097B-74C1-47C1-81D6-4AC91699AD94}.Release.Build.0 = Release|.NET
+		{504C7F9A-9005-4F57-ACDC-2118D6F9D7D6}.Debug.ActiveCfg = Debug|.NET
+		{504C7F9A-9005-4F57-ACDC-2118D6F9D7D6}.Debug.Build.0 = Debug|.NET
+		{504C7F9A-9005-4F57-ACDC-2118D6F9D7D6}.Documentations.ActiveCfg = Documentations|.NET
+		{504C7F9A-9005-4F57-ACDC-2118D6F9D7D6}.Documentations.Build.0 = Documentations|.NET
+		{504C7F9A-9005-4F57-ACDC-2118D6F9D7D6}.Release.ActiveCfg = Release|.NET
+		{504C7F9A-9005-4F57-ACDC-2118D6F9D7D6}.Release.Build.0 = Release|.NET
+		{FC75B7CE-4EF4-4BE3-9097-BD2E026CCE33}.Debug.ActiveCfg = Debug|.NET
+		{FC75B7CE-4EF4-4BE3-9097-BD2E026CCE33}.Debug.Build.0 = Debug|.NET
+		{FC75B7CE-4EF4-4BE3-9097-BD2E026CCE33}.Documentations.ActiveCfg = Documentations|.NET
+		{FC75B7CE-4EF4-4BE3-9097-BD2E026CCE33}.Documentations.Build.0 = Documentations|.NET
+		{FC75B7CE-4EF4-4BE3-9097-BD2E026CCE33}.Release.ActiveCfg = Release|.NET
+		{FC75B7CE-4EF4-4BE3-9097-BD2E026CCE33}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(SolutionItems) = postSolution
+		Docs\iGeospatial2003.ndoc = Docs\iGeospatial2003.ndoc
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal
